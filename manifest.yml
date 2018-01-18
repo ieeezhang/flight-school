@@ -2,4 +2,6 @@ applications:
 - name: flight-school 
   memory: 1G
   random-route: true
-  path: . 
+  path: .
+  instances: 1
+  buildpack: ruby_buildpack 
