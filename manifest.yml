@@ -1,4 +1,5 @@
-name: flight-school
-memory: 128M
-random-route: true
-path: .
+applications:
+- name: flight-school 
+  memory: 1G
+  random-route: true
+  path: . 
