@@ -20,7 +20,7 @@ class Radar
     decoded = JSON.parse(res.body)
 
     Status.new(
-#      decoded.fetch("IATA"),
+      decoded.fetch("IATA"),
       decoded.fetch("name"),
       decoded.fetch("city"),
       decoded.fetch("weather").fetch("weather"),
